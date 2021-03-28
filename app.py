@@ -12,7 +12,6 @@ def getting_started():
 def first_game():
     return render_template("first_game.html")
 
-# Based off of http://phaser.io/tutorials/making-your-first-phaser-3-game/
 @app.route("/super-mario")
 def super_mario():
     return render_template("super_mario.html")
